@@ -1,5 +1,45 @@
-d
+.. Your project name
+==========================================
 
-.. tabs::
-   .. tab:: Вкладка 1
-      Содержимое вкладки 1
+Welcome to the documentation for Your project name!
+
+.. toctree::
+   :maxdepth: 2
+
+   introduction
+   installation
+   usage
+   api_reference
+   contributing
+   changelog
+
+Introduction
+------------------------------------------
+
+This section should provide an introduction to your project, explaining what it does and what problem it solves.
+
+Installation
+------------------------------------------
+
+This section should provide instructions on how to install your project.
+
+Usage
+------------------------------------------
+
+This section should provide instructions on how to use your project.
+
+API Reference
+------------------------------------------
+
+This section should provide a reference to your project's API.
+
+Contributing
+------------------------------------------
+
+This section should provide information on how to contribute to your project.
+
+Changelog
+------------------------------------------
+
+This section should provide a changelog for your project.
+
