@@ -39,7 +39,9 @@ Introduction
 Installation
 ------------------------------------------
 
-This section should provide instructions on how to install your project.
+.. code-block:: python
+
+pip install api-Rocket
 
 API Reference
 ------------------------------------------
