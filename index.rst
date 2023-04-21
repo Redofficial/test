@@ -1,12 +1,15 @@
 Rocket
 ==========================================
 
-Welcome to the documentation for Your project name!
+Welcome to the documentation for My project!
+
+language: Russian
 
 .. toctree::
    :maxdepth: 2
 
    introduction
+   translations
    installation
    usage
    api_reference
