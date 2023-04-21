@@ -1,9 +1,7 @@
 Rocket
 ==========================================
 
-Welcome to the documentation for My project!
-
-language: Russian
+Welcome to the documentation for My project! language: Russian
 
 .. toctree::
    :maxdepth: 2
