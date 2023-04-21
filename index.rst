@@ -1,7 +1,9 @@
 Rocket
 ==========================================
 
-Welcome to the documentation for My project! language: Russian
+Welcome to the documentation for My project! 
+
+language: Russian
 
 .. toctree::
    :maxdepth: 2
@@ -9,7 +11,6 @@ Welcome to the documentation for My project! language: Russian
    introduction
    translations
    installation
-   usage
    api_reference
    contributing
    changelog
@@ -23,11 +24,6 @@ Installation
 ------------------------------------------
 
 This section should provide instructions on how to install your project.
-
-Usage
-------------------------------------------
-
-This section should provide instructions on how to use your project.
 
 API Reference
 ------------------------------------------
@@ -44,3 +40,17 @@ Changelog
 
 This section should provide a changelog for your project.
 
+==========================================
+usage
+==========================================
+
+.. toctree::
+   :maxdepth: 2
+
+   Usage
+   
+ 
+Usage
+------------------------------------------
+
+This section should provide instructions on how to use your project.
