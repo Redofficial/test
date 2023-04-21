@@ -40,7 +40,6 @@ Installation
 ------------------------------------------
 
 .. code-block:: python
-
 pip install api-Rocket
 
 API Reference
