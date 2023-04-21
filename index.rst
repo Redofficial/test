@@ -39,7 +39,8 @@ Introduction
 Installation
 ------------------------------------------
 
-.. code-block:: python
+.. code-block:: bash
+
    pip install api-Rocket
 
 API Reference
