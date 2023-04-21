@@ -1,4 +1,6 @@
-Rocket
+####################
+Rocket |beta badge|
+####################
 ==========================================
 
 Welcome to the documentation for My project! 
@@ -60,10 +62,10 @@ API Reference
 ------------------------------------------
 
 Мы используем официальное API TonRocket'a
+   
+создатель официального API: `RocketMan <https://t.me/RocketBotCEO>`_
 
-Создатель API
-
-:ref:`example|Ссылку на пример`
+официальное `API <https://pay.ton-rocket.com/api/>`_
 
 Contributing
 ------------------------------------------
@@ -89,3 +91,11 @@ Usage
 ------------------------------------------
 
 This section should provide instructions on how to use your project.
+
+
+
+
+
+
+.. |beta badge| image:: https://img.shields.io/badge/-beta-orange
+  :alt: Beta badge
