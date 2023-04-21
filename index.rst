@@ -1,4 +1,4 @@
-.. Your project name
+.. Rocket
 ==========================================
 
 Welcome to the documentation for Your project name!
