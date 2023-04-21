@@ -39,9 +39,22 @@ Introduction
 Installation
 ------------------------------------------
 
+чтобы скачать
+
 .. code-block:: bash
 
    pip install api-Rocket
+   
+потом проверяем маленьким скриптом
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   ver = app.api_version()
+   print(ver)
+
+готово
 
 API Reference
 ------------------------------------------
