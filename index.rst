@@ -40,7 +40,7 @@ Changelog
 
 This section should provide a changelog for your project.
 
-==========================================
+
 usage
 ==========================================
 
