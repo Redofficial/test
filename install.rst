@@ -103,6 +103,10 @@ Usage
    edit multi Cheques
    delete multi Cheques
    check currency
+   create invoice
+   check invoices
+   get invoice
+   delete invoice
    
  
 api version
@@ -263,7 +267,74 @@ check currency
    info = app.check_currency()
    print(info)
    
-check currency
+create invoice
 ------------------------------------------
+
+Эта функция создает счет
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   data = {
+      "amount": 5, #колво за одну активацию счета
+      "numPayments" 1, #колво платижей
+      "currency": "TONCOIN", #валюта
+      "description": "это описание чека",
+      "message": "сообщение которое будет доступно после оплаты счета",
+      "url": "ссылка которая будет доступна после оплаты счета",
+      "expired": 0, #срок действия счета, 0 - навсегда
+   }
+   app = api.Client(token="Your Token")
+   info = app.create_invoice(data=data)
+   print(info)
+
+check invoices
+------------------------------------------
+
+Эта функция дает возможность проверять ваши счета
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.check_invoices(limit=100, offset=0) #по умолчания limit=100, offset=0
+   print(info)
+   
+   
+get invoice
+------------------------------------------
+
+Эта функция дает возможность открыть счет
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.get_invoice(id=0)
+   print(info)
+   
+   
+delete invoice
+------------------------------------------
+
+Эта функция дает возможность удалить счет
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.delete_invoice(id=0)
+   print(info)
+ 
+ 
+ 
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
