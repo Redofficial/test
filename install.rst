@@ -70,12 +70,22 @@ API Reference
 Contributing
 ------------------------------------------
 
-This section should provide information on how to contribute to your project.
+Мы будем очень благодарны если вы захотите нам помочь
+
+чем моежете нам помочь? та все просто
+
+1. находите баги или глюки - сообщаете `нам <https://t.me/Redpiar>`_
+2. есть идея как улучшить производительность - сообщаете `нам <https://t.me/Redpiar>`_
+3. если есть совершенно любые идеи - сообщаете `нам <https://t.me/Redpiar>`_
 
 Changelog
 ------------------------------------------
 
-This section should provide a changelog for your project.
+в этом обновлении произошло следующие:
+
+1. добавлено proxies
+2. добавлено exceptions
+3. добавлена одна функция в async client
 
 
 Usage
