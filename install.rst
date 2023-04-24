@@ -97,6 +97,7 @@ Usage
    api version
    info
    transfer
+   create multi Cheques
    
  
 api version
@@ -149,6 +150,29 @@ transfer
    app = api.Client(token="Your Token")
    tr = app.transfer(data=data)
    print(tr)
+   
+
+create multi Cheques
+------------------------------------------
+
+Эта функция создает мульти чек
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   data = {
+      "currency": "TONCOIN", #str, валюта
+      "PerUser": 0.1, #int, float, за пользователя
+      "usersNumber": 5, #int, кол-во активаций
+      "refProgram": 2, #int, реф программа для пользователя
+      "password": "RdGd234", #пароль на чек
+      "telegramResurce": "https://t.me/channel" #ссылка на ваш тг канал
+   }
+   app = api.Client(token="Your Token")
+   multi = app.create_multi_Cheques(data=data)
+   print(multi)
 
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
