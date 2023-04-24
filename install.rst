@@ -98,6 +98,9 @@ Usage
    info
    transfer
    create multi Cheques
+   check multi Cheques
+   info multi Cheques
+   edit multi Cheques
    
  
 api version
@@ -173,6 +176,62 @@ create multi Cheques
    app = api.Client(token="Your Token")
    multi = app.create_multi_Cheques(data=data)
    print(multi)
+   
+check multi Cheques
+------------------------------------------
 
+Эта функция показывает все ваши мульти чеки
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.check_multi_Cheques()
+   print(info)
+   
+либо же 
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.check_multi_Cheques(limit=100, offset=0) #по умолчания limit=100, offset=0
+   print(info)
+   
+info multi Cheques
+------------------------------------------
+
+Эта функция показывает полную информацию про ваш чек
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.info_multi_Cheques(id=0) #находим ваш чек по айди
+   print(info)
+
+
+edit multi Cheques
+------------------------------------------
+
+Эта функция дает возможность редактировать чеки
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   data = {
+      "password": "hhfggs086",
+      "telegramResurce": None,
+   }
+   app = api.Client(token="Your Token")
+   info = app.info_multi_Cheques(id=0) #находим ваш чек по айди
+   print(info)
+   
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
