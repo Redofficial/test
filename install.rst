@@ -94,13 +94,23 @@ Usage
 .. toctree::
    :maxdepth: 2
 
-   Usage
+   api version
    
  
-Usage
+api version
 ------------------------------------------
 
-This section should provide instructions on how to use your project.
+Эта функция дает возможность узнать версию используваемого API
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   ver = app.api_version()
+   print(ver)
+
 
 
 
