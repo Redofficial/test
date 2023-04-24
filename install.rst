@@ -101,6 +101,8 @@ Usage
    check multi Cheques
    info multi Cheques
    edit multi Cheques
+   delete multi Cheques
+   check currency
    
  
 api version
@@ -230,8 +232,38 @@ edit multi Cheques
       "telegramResurce": None,
    }
    app = api.Client(token="Your Token")
-   info = app.info_multi_Cheques(id=0) #находим ваш чек по айди
+   info = app.info_multi_Cheques(id=0, data=data) #находим ваш чек по айди
    print(info)
    
+delete multi Cheques
+------------------------------------------
+
+Эта функция удаляет чек по айди
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.delete_multi_Cheques(id=0) #находим ваш чек по айди и удаляем его
+   print(info)
+   
+check currency
+------------------------------------------
+
+Эта функция проверяет доступную валюту
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.check_currency()
+   print(info)
+   
+check currency
+------------------------------------------
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
