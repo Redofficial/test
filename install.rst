@@ -16,6 +16,19 @@ language: Russian
    api_reference
    contributing
    changelog
+   api version
+   info
+   transfer
+   create multi Cheques
+   check multi Cheques
+   info multi Cheques
+   edit multi Cheques
+   delete multi Cheques
+   check currency
+   create invoice
+   check invoices
+   get invoice
+   delete invoice
 
 Introduction
 ------------------------------------------
@@ -87,30 +100,6 @@ Changelog
 2. добавлено exceptions
 3. добавлена одна функция в async client
 
-
-
-
-Usage
-==========================================
-
-Welcome to the documentation for My project! 
-
-.. toctree::
-   :maxdepth: 2
-
-   api version
-   info
-   transfer
-   create multi Cheques
-   check multi Cheques
-   info multi Cheques
-   edit multi Cheques
-   delete multi Cheques
-   check currency
-   create invoice
-   check invoices
-   get invoice
-   delete invoice
    
  
 api version
