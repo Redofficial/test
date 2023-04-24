@@ -78,9 +78,19 @@ Contributing
 2. есть идея как улучшить производительность - сообщаете `нам <https://t.me/Redpiar>`_
 3. если есть совершенно любые идеи - сообщаете `нам <https://t.me/Redpiar>`_
 
+Changelog
+------------------------------------------
+
+в этом обновлении произошло следующие:
+
+1. добавлено proxies
+2. добавлено exceptions
+3. добавлена одна функция в async client
 
 Usage
 ==========================================
+
+Welcome to the documentation for My project! 
 
 .. toctree::
    :maxdepth: 2
