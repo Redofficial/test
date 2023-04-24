@@ -95,6 +95,8 @@ Usage
    :maxdepth: 2
 
    api version
+   info
+   transfer
    
  
 api version
@@ -112,10 +114,41 @@ api version
    print(ver)
 
 
+info
+------------------------------------------
 
+Эта функция дает информацию про ваш кошелек
 
+внимание на код
 
+.. code-block:: python
 
+   import api_Rocket as api
+   app = api.Client(token="Your Token")
+   info = app.info()
+   print(info)
+
+transfer
+------------------------------------------
+
+Эта функция дает возможность отправлять кому-то валюту
+
+внимание на код
+
+.. code-block:: python
+
+   import api_Rocket as api
+   
+   data = {
+      "userid": 0, #int, телеграмм айди пользователя
+      "currency": "TONCOIN", #str, валюта
+      "amount": 0, #int, кол-во валюты для передачи
+      "comment": None #комментарий
+   }
+   
+   app = api.Client(token="Your Token")
+   tr = app.transfer(data=data)
+   print(tr)
 
 .. |beta badge| image:: https://img.shields.io/badge/-beta-orange
   :alt: Beta badge
